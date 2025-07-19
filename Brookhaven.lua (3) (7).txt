@@ -4,10 +4,10 @@ local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao14
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = Libary:MakeWindow({
-    Title = "Chaos Hub | Brookhaven RP ",
-    SubTitle = "by: Luscaa and venom",
-    LoadText = "Carregando Chaos Hub",
-    Flags = "ChaosHub_Broookhaven"
+    Title = "MAXSO HUB 2| Brookhaven RP ",
+    SubTitle = "by:Max",
+    LoadText = "Carregando Hub",
+    Flags = "Hub_Broookhaven"
 })
 Window:AddMinimizeButton({
     Button = { Image = "rbxassetid://131669852271916", BackgroundTransparency = 0 },
@@ -19,9 +19,6 @@ local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://1530913847
 
 
 InfoTab:AddSection({ "Informações do Script" })
-InfoTab:AddParagraph({ "Owner / Developer:", "Luscaa and veno." })
-InfoTab:AddParagraph({ "Colaborações:", "Blue, sukuna, Magekko, Darkness, Star, Toddy" })
-InfoTab:AddParagraph({ "Você está usando:", "Chaos Hub Brookhaven " })
 InfoTab:AddParagraph({"Your executor:", executor})
 
 InfoTab:AddSection({ "Rejoin" })
